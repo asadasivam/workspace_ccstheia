@@ -55,7 +55,7 @@
 #include "temp_main.h"
 #include <stdio.h>
 
-unsigned int read_voltage;
+unsigned int read_voltage;  //  initial pin status to be checked
 
 void main()
 {
