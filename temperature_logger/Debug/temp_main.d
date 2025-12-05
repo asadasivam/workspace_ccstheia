@@ -9,6 +9,7 @@ temp_main.obj: /Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.
 temp_main.obj: ../temp_main.h
 temp_main.obj: ../temp_DTH11adc.h
 temp_main.obj: ../temp_LM35gpiosinglewire.h
+temp_main.obj: ../return_pressure_controller.h
 temp_main.obj: /Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdio.h
 temp_main.obj: /Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_ti_config.h
 temp_main.obj: /Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h
@@ -34,6 +35,8 @@ temp_main.obj: /Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.
 ../temp_DTH11adc.h:
 
 ../temp_LM35gpiosinglewire.h:
+
+../return_pressure_controller.h:
 
 /Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdio.h:
 

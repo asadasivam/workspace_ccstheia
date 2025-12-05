@@ -43,12 +43,13 @@
 //
 //                MSP430FR5969
 //             -------------------------
-//         /|\|                              XIN|-
-//          | |                                 |
-//          --|RST                          XOUT|-
-//            |                                 |   
-//        >---|P1.1/A1(LM35)                P1.0|-->LED
-//        >---|P1.1/Single wire (DTH11)
+//         /|\|             
+//          | |             
+//          --|RST          
+//            |             
+//        >---|P1.1/A1(LM35 - Analog voltage)
+//        >---|P1.1/Single wire (DTH11 - Digital)
+//        >---|P1.1/Thermistor(Analog)
 //
 //******************************************************************************
 #include "adc_driver.h"
@@ -69,7 +70,7 @@ void main()
   //  1. not connected
   //  2. connected to DTH11 sensor or LM35 sensor
   ADC_Init();
-  
+  stepper_motor_init();
   read_voltage = ADC_Read();
   if(read_voltage > 3.3)
   {

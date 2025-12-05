@@ -3,6 +3,7 @@
 
 #include "temp_DTH11adc.h"
 #include "temp_LM35gpiosinglewire.h"
+#include "return_pressure_controller.h"
 
 typedef struct {
     void    (*adc_init)(void);

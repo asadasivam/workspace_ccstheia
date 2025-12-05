@@ -188,5 +188,15 @@
       "directory" : "/Users/sadash/workspace_ccstheia/temperature_logger/Debug",
       "command"   : "clang++ -I\"/Applications/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"/Users/sadash/workspace_ccstheia/temperature_logger\" -I\"/Users/sadash/workspace_ccstheia/temperature_logger/driverlib/MSP430FR5xx_6xx\" -I\"/Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5969__ -D_MPU_ENABLE -DDEPRECATED -xc",
       "file"      : "/Users/sadash/workspace_ccstheia/temperature_logger/temp_LM35gpiosinglewire.c"
+   },
+   {
+      "directory" : "/Users/sadash/workspace_ccstheia/temperature_logger/Debug",
+      "command"   : "clang++ -I\"/Applications/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"/Users/sadash/workspace_ccstheia/temperature_logger\" -I\"/Users/sadash/workspace_ccstheia/temperature_logger/driverlib/MSP430FR5xx_6xx\" -I\"/Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5969__ -D_MPU_ENABLE -DDEPRECATED -xc",
+      "file"      : "/Users/sadash/workspace_ccstheia/temperature_logger/temp_thermistor.c"
+   },
+   {
+      "directory" : "/Users/sadash/workspace_ccstheia/temperature_logger/Debug",
+      "command"   : "clang++ -I\"/Applications/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"/Users/sadash/workspace_ccstheia/temperature_logger\" -I\"/Users/sadash/workspace_ccstheia/temperature_logger/driverlib/MSP430FR5xx_6xx\" -I\"/Applications/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5969__ -D_MPU_ENABLE -DDEPRECATED -xc",
+      "file"      : "/Users/sadash/workspace_ccstheia/temperature_logger/return_pressure_controller.c"
    }
 ]

@@ -1,6 +1,8 @@
+"./return_pressure_controller.obj"
 "./temp_DTH11adc.obj"
 "./temp_LM35gpiosinglewire.obj"
 "./temp_main.obj"
+"./temp_thermistor.obj"
 "./driverlib/MSP430FR5xx_6xx/adc12_b.obj"
 "./driverlib/MSP430FR5xx_6xx/aes256.obj"
 "./driverlib/MSP430FR5xx_6xx/comp_e.obj"

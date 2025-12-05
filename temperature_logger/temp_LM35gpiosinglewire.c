@@ -17,7 +17,7 @@ void LM35_Init(void)
 
 float LM35_ReadTemperature(void)
 {
-    uint16_t adc_value = ADC_Read(LM35_ADC_CHANNEL);
+    uint16_t adc_value = ADC_Read_val(LM35_ADC_CHANNEL);
     float voltage = (adc_value * VREF) / ADC_RES;  // Convert ADC to voltage
     float temp_c = voltage / 0.01;                 // 10 mV per °C
     return temp_c;

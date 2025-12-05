@@ -13,5 +13,9 @@ unsigned short int dataframe[5];
 
 void DHT11_Init(void);
 float DHT11_ReadTemperature(void);
+    // Send start signal
+void DHT11_StartSignal();
+    // Read 40-bit response
+int DHT11_ReadData(int* data);
 
 #endif
